@@ -1,8 +1,8 @@
 {
-  "name": "Espruino Web IDE",
+  "name": "SMAC Integrated Rapid Prototyping Toolkit",
   "short_name": "Espruino IDE",
   "description": "A Terminal and Graphical code Editor for Espruino JavaScript Microcontrollers",
-  "version": "0.48.0",
+  "version": "2014.12.13",
   "app": {
     "background": {
       "scripts": ["js/background.js"]
@@ -24,7 +24,7 @@
   "manifest_version": 2,
   "url_handlers": {
     "espruino_code": {
-      "title": "Load code into the Espruino Web IDE",
+      "title": "Load code into the SMAC IRP Toolkit",
       "matches": [
         "http://www.espruino.com/webide*"
       ]

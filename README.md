@@ -1,4 +1,4 @@
-Espruino Web IDE
+SMAC Integrated Rapid Prototyping Toolkit
 ======================
 
 A VT100 Serial Terminal as a Chrome Web App (with both syntax highlighted and graphical editors) - designed for writing code on microcontrollers that use the [Espruino JavaScript interpreter](http://www.espruino.com).
@@ -52,7 +52,7 @@ Contributions are welcome - especially if they make the Web IDE easier to use fo
 
 ### Getting Started
 
-Espruino Web IDE expects the (https://github.com/espruino/EspruinoTools)[EspruinoTools] repository to be in `EspruinoWebIDE/EspruinoTools`. If you're using Git, make sure you add it using the command:
+SMAC Integrated Rapid Prototyping Toolkit expects the (https://github.com/espruino/EspruinoTools)[EspruinoTools] repository to be in `SMAC-IRP/EspruinoTools`. If you're using Git, make sure you add it using the command:
 
 ```
 git submodule add git@github.com:espruino/EspruinoTools.git
