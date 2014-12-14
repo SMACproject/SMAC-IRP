@@ -29,5 +29,8 @@
         "http://www.espruino.com/webide*"
       ]
     }
+  },
+  "sandbox": {
+  	"pages": ["blockly/demos/interpreter/index.html"]
   }
 }

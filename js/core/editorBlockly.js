@@ -47,7 +47,9 @@
     });          
     
     // Add the HTML we need
-    $('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/blockly.html"></iframe>').appendTo(".editor--code .editor__canvas");
+    // Modified to include blockly interpreter
+    //$('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/blockly.html"></iframe>').appendTo(".editor--code .editor__canvas");
+    $('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/demos/interpreter/index.html"></iframe>').appendTo(".editor--code .editor__canvas");
     
     // Handle the 'sending' processor so we can update the JS if we need to...
     Espruino.addProcessor("sending", function(data, callback) {
