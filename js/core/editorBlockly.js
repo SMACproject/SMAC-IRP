@@ -5,6 +5,7 @@
  License, v2.0. If a copy of the MPL was not distributed with this
  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  
+ Author: Ekawahyu Susilo (ekawahyu@yahoo.com)
  ------------------------------------------------------------------
   Handle The Blockly view!
  ------------------------------------------------------------------
@@ -47,9 +48,8 @@
     });          
     
     // Add the HTML we need
-    // Modified to include blockly interpreter
-    //$('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/blockly.html"></iframe>').appendTo(".editor--code .editor__canvas");
-    $('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/demos/interpreter/index.html"></iframe>').appendTo(".editor--code .editor__canvas");
+    // Modified to include smac-blockly javascript interpreter
+    $('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/demos/smac/index.html"></iframe>').appendTo(".editor--code .editor__canvas");
     
     // Handle the 'sending' processor so we can update the JS if we need to...
     Espruino.addProcessor("sending", function(data, callback) {

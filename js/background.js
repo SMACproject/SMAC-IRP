@@ -4,7 +4,7 @@ chrome.app.runtime.onLaunched.addListener(function(launchData) {
     width: 1024, 
     height: 600, 
     singleton: true,
-    frame: 'none'
+    frame: 'true'
   }, function(win) {
     // ---------------------------------------------------------- SAVE ON EXIT
     win.onClosed.addListener(function() {

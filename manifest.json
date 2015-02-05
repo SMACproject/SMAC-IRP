@@ -31,6 +31,6 @@
     }
   },
   "sandbox": {
-  	"pages": ["blockly/demos/interpreter/index.html"]
+  	"pages": ["blockly/demos/smac/index.html"]
   }
 }
