@@ -1,8 +1,10 @@
 {
+  "manifest_version": 2,
   "name": "SMAC Integrated Rapid Prototyping Toolkit",
   "short_name": "Espruino IDE",
   "description": "A Terminal and Graphical code Editor for Espruino JavaScript Microcontrollers",
   "version": "2014.12.13",
+  "minimum_chrome_version": "23",
   "app": {
     "background": {
       "scripts": ["js/background.js"]
@@ -21,7 +23,6 @@
     "http://*/",
     "https://*/"
   ],
-  "manifest_version": 2,
   "url_handlers": {
     "espruino_code": {
       "title": "Load code into the SMAC IRP Toolkit",
