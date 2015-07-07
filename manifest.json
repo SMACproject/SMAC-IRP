@@ -7,8 +7,7 @@
   "minimum_chrome_version": "23",
   "app": {
     "background": {
-      "scripts": ["js/background.js"],
-      "persistent": false
+      "scripts": ["js/background.js"]
     }
   },
   "icons": {
@@ -17,6 +16,7 @@
     "512": "img/icon_512.png"
   },
   "permissions" : [
+    "background",
     "serial",
     "videoCapture",
     {"fileSystem": ["write", "retainEntries", "directory"]},
@@ -33,6 +33,6 @@
     }
   },
   "sandbox": {
-  	"pages": ["blockly/demos/smac/index.html"]
+  	"pages": ["blockly/index.html"]
   }
 }

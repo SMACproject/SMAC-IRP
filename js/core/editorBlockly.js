@@ -49,7 +49,7 @@
     
     // Add the HTML we need
     // Modified to include smac-blockly javascript interpreter
-    $('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/demos/smac/index.html"></iframe>').appendTo(".editor--code .editor__canvas");
+    $('<iframe id="divblockly" class="blocky" style="display:none;border:none;" src="blockly/index.html"></iframe>').appendTo(".editor--code .editor__canvas");
     
     // Handle the 'sending' processor so we can update the JS if we need to...
     Espruino.addProcessor("sending", function(data, callback) {
